@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@500&display=swap');
+html
+{
+    border:none;
+    background-color: rgba(57, 57, 57, 255);
+}
+
+.text
+{
+    font-family: Genos;
+    background-color:rgba(137, 137, 137, 255);
+    width: 150px;
+    padding: 0 10px 15px 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: .5px solid black;
+    line-height: .5em;
+
+}
+.body-wrap
+{
+    border: 1px solid black;
+    width: fit-content;
+    line-height: 0%;
+}
+.fight
+{
+    border: 2px solid white;
+    border-radius: .2em;
+    width: 150px;
+    background-color: rgba(25, 25, 112, 255);
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    font-family: Genos;
+    
+}
+.image
+{
+    
+    width:100%;
+    height: 200%;
+    
+}
