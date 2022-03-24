@@ -1,0 +1,33 @@
+body{
+    width: 800px;
+    margin: 5em auto;
+    padding: 2em auto;
+    line-height: 1.2em;
+}
+#image1
+{
+    float:left;
+    width: 15em;
+    height: 8;
+    border: 1px solid black;
+    padding: .4em;
+    margin: .6em;
+}
+#image2
+{
+    float:right;
+    width: 9em;
+    height: 8em;
+    border: 1px solid black;
+    padding: .4em;
+    margin: .3em;
+}
+#image3
+{
+    float:left;
+    width: 12em;
+    height: 9em;
+    border: 1px solid black;
+    padding: .4em;
+    margin: .5em;
+}
