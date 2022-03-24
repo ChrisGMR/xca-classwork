@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+.red
+{
+    color:red;
+    font-style: italic;
+}
+.blue
+{
+    color:blue;
+    font-style: italic;
+}
+#green
+{
+    color:green;
+}
+#blue
+{
+    color:blue;
+}
+#red
+{
+    color:red;
+}
+.red-box
+{
+    border: 10px dashed red;
+    width: fit-content;
+    border-radius: .5em;
+    
+}
+.blue-box
+{
+    border: 10px solid blue;
+    width: fit-content;
+    border-radius: .5em;
+    background-color: blue;
+    color: white;
+    box-shadow: 600%, green;
+
+}
+
+
+
+

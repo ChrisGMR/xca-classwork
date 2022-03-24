@@ -1,0 +1,30 @@
+#italic
+{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#color
+{
+    color:#12ff16;
+}
+#weight
+{
+    
+    font-size: 150%;
+}
+#right
+{
+    text-align: right;
+}
+#center
+{
+    text-align: center;
+    font-size: 130%;
+    color: brown;
+    font-weight: bold;
+}
+#background
+{
+    background-color: rgba(82, 35, 190, 0.219);
+}

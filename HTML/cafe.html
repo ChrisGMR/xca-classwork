@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+         <title>Roasted Bean cafe</title>
+    </head>
+    <style>
+        body{background-image: url("file:///Users/xcastudent/Desktop/coffee-beans-994824_1280.jpg"); background-position: center,center; background-size: 150%, 100%;}
+        form {
+            width: 600px;
+            margin: 5em auto;
+            padding: 2em;
+            background-color: #fafafa;
+            border-radius: 0.5em;
+            box-shadow: 2px 3px 7px 2px rgba(187, 180, 180, 0.849);
+        }
+    </style>
+   
+    <body>
+        <form onsubmit="onSubmit()">
+            <h1 style="color:rgba(92, 55, 12, 0.733); text-align:center"> Roasted Bean Cafe</h1>
+            <br>
+            <div>
+            <p>Name:</p>
+            <label for="name">First</label>
+            <input type="text" id="name" placeholder="John" required>
+            <label for="Last name">Last</label>
+            <input type="text" id="Last name" placeholder="Smith" required>
+            </div>
+            <div>
+                <br>
+                <input type="radio" name="type" id="Hot" checked>
+                <label for="Hot">Hot</label>
+                <input type="radio" name="type" id="Cold">
+                <label for="Cold">Cold </label>
+               
+            </div>
+            <div>
+                <br>
+                <input type="radio" name="size" id="small" checked>
+                <label for="small">Small</label>
+                <input type="radio" name="size" id="medium">
+                <label for="medium">Medium</label>
+                <input type="radio" name="size" id="large">
+                <label for="large">Large</label>
+                <input type="radio" name="size" id="larger">
+                <label for="larger">Super-size-me</label>
+               
+            </div>
+    
+            <div>
+                <br>
+                <input type="radio" name="drinks" id="coffee" checked>
+                <label for="coffee">Coffee</label>
+                <input type="radio" name="drinks" id="Tea">
+                <label for="Tea">Tea</label>
+                
+            </div>
+            <div>
+                <br>
+                <h2>Add-ons</h2>
+                <h3>Coffe only</h3>
+                <input type="checkbox" name="addons" id="Sugar">
+                <label for="Sugar">Sugar</label>
+                <br>
+                <input type="checkbox" name="addons" id="Milk">
+                <label for="Milk">Milk</label>
+                <br>
+                <input type="checkbox" name="addons" id="Stevia">
+                <label for="Stevia">Stevia</label>
+            </div>
+            <div>
+                <h3>Tea only</h3>
+                <input type="checkbox" name="addons" id="Chai">
+                <label for="Chai">Chai</label>
+                <br>
+                <input type="checkbox" name="addons" id="Earl">
+                <label for="Earl">Earl Grey Tea</label>
+                <br>
+                <input type="checkbox" name="addons" id="matcha">
+                <label for="matcha">Matcha</label>
+                <br>
+                <input type="checkbox" name="addons" id="wulong">
+                <label for="wulong">Wulong</label>
+                <br>
+                <input type="checkbox" name="addons" id="herbal">
+                <label for="herbal">Herbal</label>
+            </div>
+            <div>
+                <br>            
+                <label for="message">Special Instructions</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="8" maxlength="200"></textarea>
+                <br>
+                <label style="font-style:italic; color:gray">maximum 200 characters</label>
+            </div>
+            <div>
+                <br>
+                <button>Submit</button>
+            </div>
+        </form>
+        <script>
+            function onSubmit()
+            {
+                let name = document.querySelector("#name").value
+                alert(`Hi ${name} thank you! for giving us your money. Good luck getting your coffee now this page does not work.......`)
+
+
+                
+            }
+        </script>
+      
+    </body>
+
+
+
+
+
+</html>

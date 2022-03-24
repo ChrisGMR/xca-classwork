@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    
+
+    <body style="background-color: ivory">
+        <!--Form tag-->
+        
+        <form onsubmit="onSubmitOrderFormer()">
+            <!-- Text Input-->
+            <label for="mailaddress">Email</label>
+            <input type="text" id="mailaddress">
+
+            <!--Radio Buttons-->
+            <div>
+                <br />
+                <!-- checked property makes it a default checked item.-->
+                <input type="radio" id="Coffee" name="drink" checked>
+                <label for="Coffee">Coffee</label>
+                <!-- type selects the input type, id is what connects input and label, name tag makes a family thus only allows one option to be selected. -->
+                <br>
+                <input type="radio" id="Tea" name="drink">
+                <label for="Tea">Tea</label>
+            </div>
+
+            <!--Checkboxes-->
+            <div style="background-color:silver; text-align: center;">
+                <h2>Add-ons :</h2>
+                <!--add value to the tag of input-->
+                <input type="checkbox" id="Milk"  name="Additives">
+                <label for="Milk">Milk</label>
+                <input type="checkbox" id="Sugar" name="Additives">
+                <label for="Sugar">Sugar</label>
+                <input type="checkbox" id="Stevia" name="Additives">
+                <label for="Stevia">Stevia</label>
+            </div>
+
+            <div>
+            <!--Text Area-->
+            <br>
+            <label for="message">Special Notes:</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="5" maxlength="100"></textarea>
+            <br>
+            <label style="color:gray"> maximum characters 100</label>
+            </div>
+
+            <!--placeholder-->
+            <input placeholder="text">
+            <!--Required-->
+            <input required="it is required" placeholder="it is required">
+            <!--Submit-->
+            <button>SUBMIT</button>
+            <!--Disabled-->
+            <input disabled="it is disabled"placeholder="it is disabled">
+            <!-- for diable a function must be written if something is pressed them enable or disable such button or option.-->
+            <!--Conditionals-->
+        
+
+        </form>
+
+        <script>
+            function onSubmitOrderFormer()
+            {
+                alert("You messed up. I got your info now.")
+            }
+        </script>
+        <!--methods..... get, and post. post method is encrypted-->
+
+        
+    </body>
+
+
+
+</html>

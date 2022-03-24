@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+         <title>Roasted Bean cafe</title>
+         <link rel="stylesheet" href="style.css">
+    </head>
+   
+   
+    <body>
+        <form onsubmit="onSubmit()">
+            <h1 id="header"> Roasted Bean Cafe</h1>
+            <br>
+            
+            <div class="align">
+                <label for="name">First</label>
+                <input type="text" id="name" placeholder="John" required>
+                <label for="Last name">Last</label>
+                <input type="text" id="Last name" placeholder="Smith" required>
+            </div>
+            <div class="align">
+                <br>
+                <input type="radio" name="type" id="Hot" checked>
+                <label for="Hot">Hot</label>
+                <input type="radio" name="type" id="Cold">
+                <label for="Cold">Cold </label>
+               
+            </div>
+            <div class="align">
+                <br>
+                <input type="radio" name="size" id="small" checked>
+                <label for="small">Small</label>
+                <input type="radio" name="size" id="medium">
+                <label for="medium">Medium</label>
+                <input type="radio" name="size" id="large">
+                <label for="large">Large</label>
+                <input type="radio" name="size" id="larger">
+                <label for="larger">Super-size-me</label>
+               
+            </div>
+    
+            <div class="align">
+                <br>
+                <input type="radio" name="drinks" id="coffee" checked>
+                <label for="coffee">Coffee</label>
+                <input type="radio" name="drinks" id="Tea">
+                <label for="Tea">Tea</label>
+                
+            </div>
+            <div class="foat-container">
+                <h2 class="align">Add-ons</h2>
+                <div class="float-child">
+                    <br>
+                    <h3>Coffe only</h3>
+                    <input type="checkbox" name="addons" id="Sugar">
+                    <label for="Sugar">Sugar</label>
+                    <br>
+                    <input type="checkbox" name="addons" id="Milk">
+                    <label for="Milk">Milk</label>
+                    <br>
+                    <input type="checkbox" name="addons" id="Stevia">
+                    <label for="Stevia">Stevia</label>
+                </div>
+                <div class="float-child">
+                    <h3>Tea only</h3>
+                    <input type="checkbox" name="addons" id="Chai">
+                    <label for="Chai">Chai</label>
+                    <br>
+                    <input type="checkbox" name="addons" id="Earl">
+                    <label for="Earl">Earl Grey Tea</label>
+                    <br>
+                    <input type="checkbox" name="addons" id="matcha">
+                    <label for="matcha">Matcha</label>
+                    <br>
+                    <input type="checkbox" name="addons" id="wulong">
+                    <label for="wulong">Wulong</label>
+                    <br>
+                    <input type="checkbox" name="addons" id="herbal">
+                    <label for="herbal">Herbal</label>
+                </div>
+                
+            </div>
+            <div class="align">
+                <br>            
+                <label for="message">Special Instructions</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="8" maxlength="200"></textarea>
+                <br>
+                <label id="greyItalics">maximum 200 characters</label>
+            </div>
+            <div class="align">
+                <br>
+                <button type="submit" class="Button">Order</button>
+            </div>
+        </form>
+        <script>
+            function onSubmit()
+            {
+                let name = document.querySelector("#name").value
+                alert(`Hi ${name} thank you! for giving us your money. Good luck getting your coffee now this page does not work.......`)
+
+
+                
+            }
+        </script>
+      
+    </body>
+
+
+
+
+
+</html>
